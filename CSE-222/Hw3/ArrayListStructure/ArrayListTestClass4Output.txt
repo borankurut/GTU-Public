@@ -1,0 +1,653 @@
+created 10 accounts, each of them is logged in and they share a post.
+An account with username account0 has been created.
+An account with username account1 has been created.
+An account with username account2 has been created.
+An account with username account3 has been created.
+An account with username account4 has been created.
+An account with username account5 has been created.
+An account with username account6 has been created.
+An account with username account7 has been created.
+An account with username account8 has been created.
+An account with username account9 has been created.
+
+To show the list of followers of Account0,Account0 is followed by other 9 accounts:
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 1 follower(s)
+The followers of account0 are: account1, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 2 follower(s)
+The followers of account0 are: account1, account2, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 3 follower(s)
+The followers of account0 are: account1, account2, account3, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 4 follower(s)
+The followers of account0 are: account1, account2, account3, account4, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 5 follower(s)
+The followers of account0 are: account1, account2, account3, account4, account5, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 6 follower(s)
+The followers of account0 are: account1, account2, account3, account4, account5, account6, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 7 follower(s)
+The followers of account0 are: account1, account2, account3, account4, account5, account6, account7, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 8 follower(s)
+The followers of account0 are: account1, account2, account3, account4, account5, account6, account7, account8, 
+
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 9 follower(s)
+The followers of account0 are: account1, account2, account3, account4, account5, account6, account7, account8, account9, 
+
+To show the list of followers of Account0,Account0 is unfollowed by other 9 accounts:
+account1 unfollows account0
+(account0's followers list:
+[account2, account3, account4, account5, account6, account7, account8, account9]
+
+account2 unfollows account0
+(account0's followers list:
+[account3, account4, account5, account6, account7, account8, account9]
+
+account3 unfollows account0
+(account0's followers list:
+[account4, account5, account6, account7, account8, account9]
+
+account4 unfollows account0
+(account0's followers list:
+[account5, account6, account7, account8, account9]
+
+account5 unfollows account0
+(account0's followers list:
+[account6, account7, account8, account9]
+
+account6 unfollows account0
+(account0's followers list:
+[account7, account8, account9]
+
+account7 unfollows account0
+(account0's followers list:
+[account8, account9]
+
+account8 unfollows account0
+(account0's followers list:
+[account9]
+
+account9 unfollows account0
+(account0's followers list:
+[]
+
+after like and comment
+(PostID: 1): 1. post of 1
+The post was liked by the following account(s): account0, 
+The post has 1 comment(s)...
+Comment 0: 'account0' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 1): 1. post of 1
+The post has no likes.
+The post has no comments.
+----------------------------
+After account0 follows account1.
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 1 account(s) and has 0 follower(s)
+account0 is following: account1, 
+--------------------
+User ID: 1
+Username: account1
+Location: Istanbul
+Birth Date: 10.10.2000
+account1 is following 0 account(s) and has 1 follower(s)
+The followers of account1 are: account0, 
+
+After account0 unfollows account 1.
+--------------------
+User ID: 0
+Username: account0
+Location: Istanbul
+Birth Date: 10.10.2000
+account0 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 1
+Username: account1
+Location: Istanbul
+Birth Date: 10.10.2000
+account1 is following 0 account(s) and has 0 follower(s)
+
+After blocking account1:
+account0 is blocked: [account1]
+
+After unblocking account1:
+account0 is blocked: []
+
+account0 History:
+You liked 1's post id: 1
+You commented 1's post id: 1
+You unliked 1's post id: 1
+You deleted your comment of 1's post id: 1
+You followed account1
+You blocked account1
+You unblocked account1
+
+after like and comment
+(PostID: 2): 1. post of 2
+The post was liked by the following account(s): account1, 
+The post has 1 comment(s)...
+Comment 1: 'account1' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 2): 1. post of 2
+The post has no likes.
+The post has no comments.
+----------------------------
+After account1 follows account2.
+--------------------
+User ID: 1
+Username: account1
+Location: Istanbul
+Birth Date: 10.10.2000
+account1 is following 1 account(s) and has 0 follower(s)
+account1 is following: account2, 
+--------------------
+User ID: 2
+Username: account2
+Location: Istanbul
+Birth Date: 10.10.2000
+account2 is following 0 account(s) and has 1 follower(s)
+The followers of account2 are: account1, 
+
+After account1 unfollows account 2.
+--------------------
+User ID: 1
+Username: account1
+Location: Istanbul
+Birth Date: 10.10.2000
+account1 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 2
+Username: account2
+Location: Istanbul
+Birth Date: 10.10.2000
+account2 is following 0 account(s) and has 0 follower(s)
+
+After blocking account2:
+account1 is blocked: [account2]
+
+After unblocking account2:
+account1 is blocked: []
+
+account1 History:
+You followed account0
+You liked 2's post id: 2
+You commented 2's post id: 2
+You unliked 2's post id: 2
+You deleted your comment of 2's post id: 2
+You followed account2
+You blocked account2
+You unblocked account2
+
+after like and comment
+(PostID: 3): 1. post of 3
+The post was liked by the following account(s): account2, 
+The post has 1 comment(s)...
+Comment 2: 'account2' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 3): 1. post of 3
+The post has no likes.
+The post has no comments.
+----------------------------
+After account2 follows account3.
+--------------------
+User ID: 2
+Username: account2
+Location: Istanbul
+Birth Date: 10.10.2000
+account2 is following 1 account(s) and has 0 follower(s)
+account2 is following: account3, 
+--------------------
+User ID: 3
+Username: account3
+Location: Istanbul
+Birth Date: 10.10.2000
+account3 is following 0 account(s) and has 1 follower(s)
+The followers of account3 are: account2, 
+
+After account2 unfollows account 3.
+--------------------
+User ID: 2
+Username: account2
+Location: Istanbul
+Birth Date: 10.10.2000
+account2 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 3
+Username: account3
+Location: Istanbul
+Birth Date: 10.10.2000
+account3 is following 0 account(s) and has 0 follower(s)
+
+After blocking account3:
+account2 is blocked: [account3]
+
+After unblocking account3:
+account2 is blocked: []
+
+account2 History:
+You followed account0
+You liked 3's post id: 3
+You commented 3's post id: 3
+You unliked 3's post id: 3
+You deleted your comment of 3's post id: 3
+You followed account3
+You blocked account3
+You unblocked account3
+
+after like and comment
+(PostID: 4): 1. post of 4
+The post was liked by the following account(s): account3, 
+The post has 1 comment(s)...
+Comment 3: 'account3' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 4): 1. post of 4
+The post has no likes.
+The post has no comments.
+----------------------------
+After account3 follows account4.
+--------------------
+User ID: 3
+Username: account3
+Location: Istanbul
+Birth Date: 10.10.2000
+account3 is following 1 account(s) and has 0 follower(s)
+account3 is following: account4, 
+--------------------
+User ID: 4
+Username: account4
+Location: Istanbul
+Birth Date: 10.10.2000
+account4 is following 0 account(s) and has 1 follower(s)
+The followers of account4 are: account3, 
+
+After account3 unfollows account 4.
+--------------------
+User ID: 3
+Username: account3
+Location: Istanbul
+Birth Date: 10.10.2000
+account3 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 4
+Username: account4
+Location: Istanbul
+Birth Date: 10.10.2000
+account4 is following 0 account(s) and has 0 follower(s)
+
+After blocking account4:
+account3 is blocked: [account4]
+
+After unblocking account4:
+account3 is blocked: []
+
+account3 History:
+You followed account0
+You liked 4's post id: 4
+You commented 4's post id: 4
+You unliked 4's post id: 4
+You deleted your comment of 4's post id: 4
+You followed account4
+You blocked account4
+You unblocked account4
+
+after like and comment
+(PostID: 5): 1. post of 5
+The post was liked by the following account(s): account4, 
+The post has 1 comment(s)...
+Comment 4: 'account4' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 5): 1. post of 5
+The post has no likes.
+The post has no comments.
+----------------------------
+After account4 follows account5.
+--------------------
+User ID: 4
+Username: account4
+Location: Istanbul
+Birth Date: 10.10.2000
+account4 is following 1 account(s) and has 0 follower(s)
+account4 is following: account5, 
+--------------------
+User ID: 5
+Username: account5
+Location: Istanbul
+Birth Date: 10.10.2000
+account5 is following 0 account(s) and has 1 follower(s)
+The followers of account5 are: account4, 
+
+After account4 unfollows account 5.
+--------------------
+User ID: 4
+Username: account4
+Location: Istanbul
+Birth Date: 10.10.2000
+account4 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 5
+Username: account5
+Location: Istanbul
+Birth Date: 10.10.2000
+account5 is following 0 account(s) and has 0 follower(s)
+
+After blocking account5:
+account4 is blocked: [account5]
+
+After unblocking account5:
+account4 is blocked: []
+
+account4 History:
+You followed account0
+You liked 5's post id: 5
+You commented 5's post id: 5
+You unliked 5's post id: 5
+You deleted your comment of 5's post id: 5
+You followed account5
+You blocked account5
+You unblocked account5
+
+after like and comment
+(PostID: 6): 1. post of 6
+The post was liked by the following account(s): account5, 
+The post has 1 comment(s)...
+Comment 5: 'account5' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 6): 1. post of 6
+The post has no likes.
+The post has no comments.
+----------------------------
+After account5 follows account6.
+--------------------
+User ID: 5
+Username: account5
+Location: Istanbul
+Birth Date: 10.10.2000
+account5 is following 1 account(s) and has 0 follower(s)
+account5 is following: account6, 
+--------------------
+User ID: 6
+Username: account6
+Location: Istanbul
+Birth Date: 10.10.2000
+account6 is following 0 account(s) and has 1 follower(s)
+The followers of account6 are: account5, 
+
+After account5 unfollows account 6.
+--------------------
+User ID: 5
+Username: account5
+Location: Istanbul
+Birth Date: 10.10.2000
+account5 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 6
+Username: account6
+Location: Istanbul
+Birth Date: 10.10.2000
+account6 is following 0 account(s) and has 0 follower(s)
+
+After blocking account6:
+account5 is blocked: [account6]
+
+After unblocking account6:
+account5 is blocked: []
+
+account5 History:
+You followed account0
+You liked 6's post id: 6
+You commented 6's post id: 6
+You unliked 6's post id: 6
+You deleted your comment of 6's post id: 6
+You followed account6
+You blocked account6
+You unblocked account6
+
+after like and comment
+(PostID: 7): 1. post of 7
+The post was liked by the following account(s): account6, 
+The post has 1 comment(s)...
+Comment 6: 'account6' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 7): 1. post of 7
+The post has no likes.
+The post has no comments.
+----------------------------
+After account6 follows account7.
+--------------------
+User ID: 6
+Username: account6
+Location: Istanbul
+Birth Date: 10.10.2000
+account6 is following 1 account(s) and has 0 follower(s)
+account6 is following: account7, 
+--------------------
+User ID: 7
+Username: account7
+Location: Istanbul
+Birth Date: 10.10.2000
+account7 is following 0 account(s) and has 1 follower(s)
+The followers of account7 are: account6, 
+
+After account6 unfollows account 7.
+--------------------
+User ID: 6
+Username: account6
+Location: Istanbul
+Birth Date: 10.10.2000
+account6 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 7
+Username: account7
+Location: Istanbul
+Birth Date: 10.10.2000
+account7 is following 0 account(s) and has 0 follower(s)
+
+After blocking account7:
+account6 is blocked: [account7]
+
+After unblocking account7:
+account6 is blocked: []
+
+account6 History:
+You followed account0
+You liked 7's post id: 7
+You commented 7's post id: 7
+You unliked 7's post id: 7
+You deleted your comment of 7's post id: 7
+You followed account7
+You blocked account7
+You unblocked account7
+
+after like and comment
+(PostID: 8): 1. post of 8
+The post was liked by the following account(s): account7, 
+The post has 1 comment(s)...
+Comment 7: 'account7' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 8): 1. post of 8
+The post has no likes.
+The post has no comments.
+----------------------------
+After account7 follows account8.
+--------------------
+User ID: 7
+Username: account7
+Location: Istanbul
+Birth Date: 10.10.2000
+account7 is following 1 account(s) and has 0 follower(s)
+account7 is following: account8, 
+--------------------
+User ID: 8
+Username: account8
+Location: Istanbul
+Birth Date: 10.10.2000
+account8 is following 0 account(s) and has 1 follower(s)
+The followers of account8 are: account7, 
+
+After account7 unfollows account 8.
+--------------------
+User ID: 7
+Username: account7
+Location: Istanbul
+Birth Date: 10.10.2000
+account7 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 8
+Username: account8
+Location: Istanbul
+Birth Date: 10.10.2000
+account8 is following 0 account(s) and has 0 follower(s)
+
+After blocking account8:
+account7 is blocked: [account8]
+
+After unblocking account8:
+account7 is blocked: []
+
+account7 History:
+You followed account0
+You liked 8's post id: 8
+You commented 8's post id: 8
+You unliked 8's post id: 8
+You deleted your comment of 8's post id: 8
+You followed account8
+You blocked account8
+You unblocked account8
+
+after like and comment
+(PostID: 9): 1. post of 9
+The post was liked by the following account(s): account8, 
+The post has 1 comment(s)...
+Comment 8: 'account8' said 'some comment'
+----------------------------
+1
+after unlike and delete comment.
+(PostID: 9): 1. post of 9
+The post has no likes.
+The post has no comments.
+----------------------------
+After account8 follows account9.
+--------------------
+User ID: 8
+Username: account8
+Location: Istanbul
+Birth Date: 10.10.2000
+account8 is following 1 account(s) and has 0 follower(s)
+account8 is following: account9, 
+--------------------
+User ID: 9
+Username: account9
+Location: Istanbul
+Birth Date: 10.10.2000
+account9 is following 0 account(s) and has 1 follower(s)
+The followers of account9 are: account8, 
+
+After account8 unfollows account 9.
+--------------------
+User ID: 8
+Username: account8
+Location: Istanbul
+Birth Date: 10.10.2000
+account8 is following 0 account(s) and has 0 follower(s)
+
+--------------------
+User ID: 9
+Username: account9
+Location: Istanbul
+Birth Date: 10.10.2000
+account9 is following 0 account(s) and has 0 follower(s)
+
+After blocking account9:
+account8 is blocked: [account9]
+
+After unblocking account9:
+account8 is blocked: []
+
+account8 History:
+You followed account0
+You liked 9's post id: 9
+You commented 9's post id: 9
+You unliked 9's post id: 9
+You deleted your comment of 9's post id: 9
+You followed account9
+You blocked account9
+You unblocked account9
+
+Elapsed time in milliseconds: 147

@@ -1,0 +1,95 @@
+
+Step 1... Creating accounts...
+An account with username gokhankaya has been created.
+An account with username gizemsungu has been created.
+An account with username sibelgulmez has been created.
+
+Step 2... Logging into an account (username: sibelgulmez)...
+
+Step 3... Sharing two posts...
+
+Step 4... Following gizemsungu and gokhankaya...
+
+Step 5... Logging out from account 'sibelgulmez'...
+
+Step 6... Logging into another account (username: gokhankaya)...
+
+Step 7... Viewing sibelgulmez's profile...
+--------------------
+User ID: 2
+Username: sibelgulmez
+Location: Istanbul
+Birth Date: 10.03.1995
+sibelgulmez is following 2 account(s) and has 0 follower(s)
+sibelgulmez is following: gizemsungu, gokhankaya, 
+
+Step 8... Viewing sibelgulmez'posts...
+(Post Id: 1) sibelgulmez: I like Java.
+(Post Id: 2) sibelgulmez: Java the coffee...
+
+
+Step 9... Liking a post of sibelgulmez...
+
+Step 10... Adding a comment on a post of sibelgulmez...
+
+Step 11... Following sibelgulmez and gizemsungu...
+
+Step 12... Sending a message to gizemsungu...
+
+Step 13... Logging out from account 'gokhankaya'...
+
+Step 14... Logging into another account (username: gizemsungu)...
+
+Step 15... Checking outbox...
+There is/are 0 message(s) in the outbox.
+
+Step 16... Checking inbox...
+There is/are 1 message(s) in the inbox.
+
+Step 17... Viewing inbox...
+----------------
+Message Id: 0
+From: gokhankaya
+To: gizemsungu
+Message: This homework is too easy!
+
+
+Step 18... Viewing sibelgulmez's profile...
+--------------------
+User ID: 2
+Username: sibelgulmez
+Location: Istanbul
+Birth Date: 10.03.1995
+sibelgulmez is following 2 account(s) and has 1 follower(s)
+The followers of sibelgulmez are: gokhankaya, 
+sibelgulmez is following: gizemsungu, gokhankaya, 
+
+Step 19... Viewing sibelgulmez's posts...
+(Post Id: 1) sibelgulmez: I like Java.
+(Post Id: 2) sibelgulmez: Java the coffee...
+
+
+Step 20... Viewing sibelgulmez's posts' interactions...
+(PostID: 1): I like Java.
+The post was liked by the following account(s): gokhankaya, 
+The post has 1 comment(s)...
+Comment 0: 'gokhankaya' said 'me too!'
+----------------------------
+(PostID: 2): Java the coffee...
+The post has no likes.
+The post has no comments.
+----------------------------
+
+Step 21... Liking sibelgulmez's posts...
+
+Viewing sibelgulmez's posts' interactions...
+(PostID: 1): I like Java.
+The post was liked by the following account(s): gokhankaya, gizemsungu, 
+The post has 1 comment(s)...
+Comment 0: 'gokhankaya' said 'me too!'
+----------------------------
+(PostID: 2): Java the coffee...
+The post was liked by the following account(s): gizemsungu, 
+The post has no comments.
+----------------------------
+Elapsed time in milliseconds: 116

@@ -1,0 +1,59 @@
+An account with username gokhankaya has been created.
+An account with username gizemsungu has been created.
+An account with username sibelgulmez has been created.
+
+Step 1: 'gizemsungu' logs in.
+
+Shares posts1 and posts2
+
+logs out.
+
+Step 2: 'sibelgulmez' logs in.
+
+a. views the profile of 'gizemsungu'.
+--------------------
+User ID: 1
+Username: gizemsungu
+Location: Istanbul
+Birth Date: 11.03.1995
+gizemsungu is following 0 account(s) and has 0 follower(s)
+
+
+b. likes Post1.
+
+c. logs out.
+
+Step 3: 'gokhankaya' logs in.
+
+a. views the profile of 'gizemsungu'.
+--------------------
+User ID: 1
+Username: gizemsungu
+Location: Istanbul
+Birth Date: 11.03.1995
+gizemsungu is following 0 account(s) and has 0 follower(s)
+
+
+b. comments on Post2 (ex: Nice!).
+
+c. sends a message to 'gizemsungu' (ex: Hello!)
+
+d. logs out.
+Step 4: 'gizemsungu' logs in.
+
+a. views her own profile. and b. reads the message from 'gokhankaya'.
+----------------
+Message Id: 0
+From: gokhankaya
+To: gizemsungu
+Message: Hello!
+
+--------------------
+User ID: 1
+Username: gizemsungu
+Location: Istanbul
+Birth Date: 11.03.1995
+gizemsungu is following 0 account(s) and has 1 follower(s)
+The followers of gizemsungu are: gokhankaya, 
+
+Elapsed time in milliseconds: 126

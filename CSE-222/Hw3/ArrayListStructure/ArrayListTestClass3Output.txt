@@ -1,0 +1,20 @@
+An account with username gokhankaya has been created.
+An account with username gizemsungu has been created.
+An account with username sibelgulmez has been created.
+
+1. 'gizemsungu' logs in.
+
+a. blocks 'sibelgulmez'.
+
+b. logs out.
+
+2. 'sibelgulmez' logs in.
+
+a. tries to view the profile of 'gizemsungu'
+Failed view: gizemsungu is blocked sibelgulmez
+
+
+b. tries to send a message to 'gizemsungu'
+Failed message: gizemsungu is blocked sibelgulmez
+
+Elapsed time in milliseconds: 57

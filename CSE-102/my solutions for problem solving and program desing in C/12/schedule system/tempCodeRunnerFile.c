@@ -1,0 +1,1 @@
+crew_t schedule_system_low_cost(crew_t crew_list[], int crew_amount, int maint_level){
