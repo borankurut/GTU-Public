@@ -1,0 +1,12 @@
+
+State Machine - |mod_fsm|next_state
+Name next_state.STATE0 next_state.STATE2 next_state.STATE1 
+next_state.STATE0 0 0 0 
+next_state.STATE1 1 0 1 
+next_state.STATE2 1 1 0 
+
+State Machine - |mod_fsm|state
+Name state.STATE0 state.STATE2 state.STATE1 
+state.STATE0 0 0 0 
+state.STATE1 1 0 1 
+state.STATE2 1 1 0 

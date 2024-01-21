@@ -1,0 +1,13 @@
+module mod_dp (output temp_min_b_lt_b, output[31:0] temp_minus_b, input [31:0] temp, b);
+
+	wire [31:0] temp_min_b_lt_b_32;
+	wire cout;
+
+	subtractor_32 sub1(temp, b, cout, temp_minus_b);
+
+	lessthan_32 lt1(temp_min_b_lt_b_32, temp_minus_b, b);
+
+	or or1(temp_min_b_lt_b, {1'b0}, temp_min_b_lt_b_32[0]);
+
+endmodule
+

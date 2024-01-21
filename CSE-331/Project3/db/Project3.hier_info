@@ -1,0 +1,95 @@
+|alu_control
+alu_ctr[0] << mux2x1_4bit:mux0.port0
+alu_ctr[1] << mux2x1_4bit:mux0.port0
+alu_ctr[2] << mux2x1_4bit:mux0.port0
+function_code[0] => function_code[0].IN1
+function_code[1] => function_code[1].IN1
+function_code[2] => function_code[2].IN1
+function_code[3] => function_code[3].IN1
+function_code[4] => function_code[4].IN1
+function_code[5] => function_code[5].IN1
+ALUop[0] => ALUop[0].IN2
+ALUop[1] => ALUop[1].IN2
+ALUop[2] => ALUop[2].IN2
+
+
+|alu_control|and_4:and0
+y <= and3.DB_MAX_OUTPUT_PORT_TYPE
+a => and1.IN0
+b => and1.IN1
+c => and2.IN0
+d => and2.IN1
+
+
+|alu_control|function_code_to_alu_ctr:falu
+alu_ctr[0] <= or0.DB_MAX_OUTPUT_PORT_TYPE
+alu_ctr[1] <= and5.DB_MAX_OUTPUT_PORT_TYPE
+alu_ctr[2] <= function_code[1].DB_MAX_OUTPUT_PORT_TYPE
+function_code[0] => and1.IN0
+function_code[0] => and2.IN0
+function_code[0] => and0.IN0
+function_code[1] => and0.IN1
+function_code[1] => and2.IN1
+function_code[1] => and1.IN1
+function_code[1] => alu_ctr[2].DATAIN
+function_code[2] => and4.IN1
+function_code[2] => and3.IN1
+function_code[2] => and5.IN1
+function_code[3] => ~NO_FANOUT~
+function_code[4] => ~NO_FANOUT~
+function_code[5] => ~NO_FANOUT~
+
+
+|alu_control|mux2x1_4bit:mux0
+result[0] <= or5.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= or6.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= or7.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= or8.DB_MAX_OUTPUT_PORT_TYPE
+result1[0] => result1[0].IN1
+result1[1] => result1[1].IN1
+result1[2] => result1[2].IN1
+result1[3] => result1[3].IN1
+result2[0] => result2[0].IN1
+result2[1] => result2[1].IN1
+result2[2] => result2[2].IN1
+result2[3] => result2[3].IN1
+sel => select[0].IN1
+sel => select[1].IN1
+sel => select[2].IN1
+sel => select[3].IN1
+sel => select_not[0].IN1
+sel => select_not[1].IN1
+sel => select_not[2].IN1
+sel => select_not[3].IN1
+
+
+|alu_control|mux2x1_4bit:mux0|and_4bit:and1
+out[0] <= and1.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= and3.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= and4.DB_MAX_OUTPUT_PORT_TYPE
+a[0] => and1.IN0
+a[1] => and2.IN0
+a[2] => and3.IN0
+a[3] => and4.IN0
+b[0] => and1.IN1
+b[1] => and2.IN1
+b[2] => and3.IN1
+b[3] => and4.IN1
+
+
+|alu_control|mux2x1_4bit:mux0|and_4bit:and2
+out[0] <= and1.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= and2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= and3.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= and4.DB_MAX_OUTPUT_PORT_TYPE
+a[0] => and1.IN0
+a[1] => and2.IN0
+a[2] => and3.IN0
+a[3] => and4.IN0
+b[0] => and1.IN1
+b[1] => and2.IN1
+b[2] => and3.IN1
+b[3] => and4.IN1
+
+

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/boran/GTU-Private/CSE-331/Project3/simulation/modelsim
+valu_testbench
+Z1 !s110 1705485773
+!i10b 1
+!s100 5LzUM?in^@zCf0_]ddQV63
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7>T5FDdAKlNY`UVYabz_S3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1705483249
+8C:/Users/boran/GTU-Private/CSE-331/Project3/AluRelated/alu_testbench.v
+FC:/Users/boran/GTU-Private/CSE-331/Project3/AluRelated/alu_testbench.v
+!i122 1
+L0 1 61
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1705485773.000000
+!s107 C:/Users/boran/GTU-Private/CSE-331/Project3/AluRelated/alu_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/boran/GTU-Private/CSE-331/Project3/AluRelated|C:/Users/boran/GTU-Private/CSE-331/Project3/AluRelated/alu_testbench.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/boran/GTU-Private/CSE-331/Project3/AluRelated
+Z7 tCvgOpt 0
+vregister_block
+R1
+!i10b 1
+!s100 e[2f3@9F?I99`JA4@Wnh<3
+R2
+IamB:jM0R?llTZPd7NNWF12
+R3
+R0
+w1705483860
+8Project3.vo
+FProject3.vo
+!i122 0
+L0 32 46639
+R4
+r1
+!s85 0
+31
+R5
+!s107 Project3.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Project3.vo|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+.
+R7

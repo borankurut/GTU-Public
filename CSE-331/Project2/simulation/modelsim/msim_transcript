@@ -1,0 +1,312 @@
+# Reading pref.tcl
+# do Project2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors/or_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors/or_4.v 
+# -- Compiling module or_4
+# 
+# Top level modules:
+# 	or_4
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors/or_3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors/or_3.v 
+# -- Compiling module or_3
+# 
+# Top level modules:
+# 	or_3
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands/and_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands/and_32_bit.v 
+# -- Compiling module and_32_bit
+# 
+# Top level modules:
+# 	and_32_bit
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands/and_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands/and_4.v 
+# -- Compiling module and_4
+# 
+# Top level modules:
+# 	and_4
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux2x1_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux2x1_32bit.v 
+# -- Compiling module mux2x1_32bit
+# 
+# Top level modules:
+# 	mux2x1_32bit
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux2x1_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux2x1_4bit.v 
+# -- Compiling module mux2x1_4bit
+# 
+# Top level modules:
+# 	mux2x1_4bit
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/fulladder_gm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/fulladder_gm.v 
+# -- Compiling module fulladder_gm
+# 
+# Top level modules:
+# 	fulladder_gm
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/cla_gen_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/cla_gen_4.v 
+# -- Compiling module cla_gen_4
+# 
+# Top level modules:
+# 	cla_gen_4
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/cl_adder_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/cl_adder_4.v 
+# -- Compiling module cl_adder_4
+# 
+# Top level modules:
+# 	cl_adder_4
+# End time: 10:22:55 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/adder_16.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:55 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/adder_16.v 
+# -- Compiling module adder_16
+# 
+# Top level modules:
+# 	adder_16
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands/and_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ands/and_4bit.v 
+# -- Compiling module and_4bit
+# 
+# Top level modules:
+# 	and_4bit
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux8x1_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux8x1_32bit.v 
+# -- Compiling module mux8x1_32bit
+# 
+# Top level modules:
+# 	mux8x1_32bit
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors/or_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/ors/or_32_bit.v 
+# -- Compiling module or_32_bit
+# 
+# Top level modules:
+# 	or_32_bit
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nors/nor_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nors" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nors/nor_32_bit.v 
+# -- Compiling module nor_32_bit
+# 
+# Top level modules:
+# 	nor_32_bit
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/xors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/xors/xor_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/xors" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/xors/xor_32_bit.v 
+# -- Compiling module xor_32_bit
+# 
+# Top level modules:
+# 	xor_32_bit
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/adder_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/adders/adder_32.v 
+# -- Compiling module adder_32
+# 
+# Top level modules:
+# 	adder_32
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/subtractors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/subtractors/subtractor_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/subtractors" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/subtractors/subtractor_32.v 
+# -- Compiling module subtractor_32
+# 
+# Top level modules:
+# 	subtractor_32
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nots {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nots/not_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nots" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/nots/not_32_bit.v 
+# -- Compiling module not_32_bit
+# 
+# Top level modules:
+# 	not_32_bit
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/lessthan {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/lessthan/lessthan_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:56 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/lessthan" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/lessthan/lessthan_32.v 
+# -- Compiling module lessthan_32
+# 
+# Top level modules:
+# 	lessthan_32
+# End time: 10:22:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux_2x1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:57 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/muxes/mux_2x1.v 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 10:22:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related/mod_cu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:57 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related/mod_cu.v 
+# -- Compiling module mod_cu
+# 
+# Top level modules:
+# 	mod_cu
+# End time: 10:22:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related/mod_dp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:57 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related/mod_dp.v 
+# -- Compiling module mod_dp
+# 
+# Top level modules:
+# 	mod_dp
+# End time: 10:22:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related/mod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:57 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related/mod.v 
+# -- Compiling module mod
+# 
+# Top level modules:
+# 	mod
+# End time: 10:22:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2 {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:57 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 10:22:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2 {C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/my_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:57 on Dec 10,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project2" C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/my_testbench.v 
+# -- Compiling module my_testbench
+# 
+# Top level modules:
+# 	my_testbench
+# End time: 10:22:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  my_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" my_testbench 
+# Start time: 10:22:57 on Dec 10,2023
+# Loading work.my_testbench
+# Loading work.alu
+# Loading work.and_32_bit
+# Loading work.or_32_bit
+# Loading work.xor_32_bit
+# Loading work.nor_32_bit
+# Loading work.lessthan_32
+# Loading work.subtractor_32
+# Loading work.not_32_bit
+# Loading work.adder_32
+# Loading work.adder_16
+# Loading work.cla_gen_4
+# Loading work.and_4
+# Loading work.or_4
+# Loading work.or_3
+# Loading work.cl_adder_4
+# Loading work.fulladder_gm
+# Loading work.mux_2x1
+# Loading work.mux2x1_32bit
+# Loading work.mux2x1_4bit
+# Loading work.and_4bit
+# Loading work.mod
+# Loading work.mod_cu
+# Loading work.mod_dp
+# Loading work.mux8x1_32bit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# time: 5100, a:00000000000000000000000000001010 b:00000000000000000000000000000011 sel:0(and) result:00000000000000000000000000000010 
+# time: 10200, a:00000000000000000000000000001010 b:00000000000000000000000000000011 sel:1(or) result:00000000000000000000000000001011 
+# time: 15300, a:00000000000000000000000000001010 b:00000000000000000000000000000011 sel:2(xor) result:00000000000000000000000000001001 
+# time: 20400, a:00000000000000000000000000001010 b:00000000000000000000000000000011 sel:3(nor) result:11111111111111111111111111110100 
+# time: 25500, a:        10 b:         3 sel:4(lessthan) result:         0 
+# time: 30600, a:        10 b:         3 sel:5(add) result:        13 
+# time: 35700, a:        10 b:         3 sel:6(sub) result:         7 
+# time: 41300, a:        10 b:         3 sel:7(mod) result:         1 
+# A time value could not be extracted from the current line
+# Break key hit
+# Break in Module mod at C:/Users/boran/Homeworks-and-Solutions/cse331/Project2/mod_related/mod.v line 20
+# End time: 10:29:11 on Dec 10,2023, Elapsed time: 0:06:14
+# Errors: 0, Warnings: 0

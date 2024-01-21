@@ -1,0 +1,40 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/xors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/xors/xor_32_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/subtractors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/subtractors/subtractor_32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ors/or_32_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ors/or_4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ors/or_3.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/nots {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/nots/not_32_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/nors {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/nors/nor_32_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes/mux8x1_32bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes/mux2x1_32bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes/mux2x1_4bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/muxes/mux_2x1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/mod_related {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/mod_related/mod_dp.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/mod_related {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/mod_related/mod_cu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/mod_related {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/mod_related/mod.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/lessthan {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/lessthan/lessthan_32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ands {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ands/and_32_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ands {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ands/and_4bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ands {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/ands/and_4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders/fulladder_gm.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders/cla_gen_4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders/cl_adder_4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders/adder_32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/adders/adder_16.v}
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/AluRelated/alu.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/MemoryRelated {C:/Users/boran/Homeworks-and-Solutions/cse331/Project3/MemoryRelated/memory_testbench.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  memory_testbench
+
+add wave *
+view structure
+view signals
+run -all
